@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2085733620620AF6002B230C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2085733520620AF6002B230C /* AppDelegate.swift */; };
+		2085733820620AF6002B230C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2085733720620AF6002B230C /* ViewController.swift */; };
+		2085733B20620AF6002B230C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2085733920620AF6002B230C /* Main.storyboard */; };
+		2085733D20620AF6002B230C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2085733C20620AF6002B230C /* Assets.xcassets */; };
+		2085734020620AF6002B230C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2085733E20620AF6002B230C /* LaunchScreen.storyboard */; };
+		2085734B20620AF6002B230C /* SmartFundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2085734A20620AF6002B230C /* SmartFundTests.swift */; };
+		2085735620620AF6002B230C /* SmartFundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2085735520620AF6002B230C /* SmartFundUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2085734720620AF6002B230C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2085732A20620AF5002B230C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2085733120620AF6002B230C;
+			remoteInfo = SmartFund;
+		};
+		2085735220620AF6002B230C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2085732A20620AF5002B230C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2085733120620AF6002B230C;
+			remoteInfo = SmartFund;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2085733220620AF6002B230C /* SmartFund.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartFund.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2085733520620AF6002B230C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2085733720620AF6002B230C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2085733A20620AF6002B230C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2085733C20620AF6002B230C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2085733F20620AF6002B230C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2085734120620AF6002B230C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2085734620620AF6002B230C /* SmartFundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartFundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2085734A20620AF6002B230C /* SmartFundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartFundTests.swift; sourceTree = "<group>"; };
+		2085734C20620AF6002B230C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2085735120620AF6002B230C /* SmartFundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartFundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2085735520620AF6002B230C /* SmartFundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartFundUITests.swift; sourceTree = "<group>"; };
+		2085735720620AF6002B230C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2085732F20620AF6002B230C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2085734320620AF6002B230C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2085734E20620AF6002B230C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2085732920620AF5002B230C = {
+			isa = PBXGroup;
+			children = (
+				2085733420620AF6002B230C /* SmartFund */,
+				2085734920620AF6002B230C /* SmartFundTests */,
+				2085735420620AF6002B230C /* SmartFundUITests */,
+				2085733320620AF6002B230C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2085733320620AF6002B230C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2085733220620AF6002B230C /* SmartFund.app */,
+				2085734620620AF6002B230C /* SmartFundTests.xctest */,
+				2085735120620AF6002B230C /* SmartFundUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2085733420620AF6002B230C /* SmartFund */ = {
+			isa = PBXGroup;
+			children = (
+				2085733520620AF6002B230C /* AppDelegate.swift */,
+				2085733720620AF6002B230C /* ViewController.swift */,
+				2085733920620AF6002B230C /* Main.storyboard */,
+				2085733C20620AF6002B230C /* Assets.xcassets */,
+				2085733E20620AF6002B230C /* LaunchScreen.storyboard */,
+				2085734120620AF6002B230C /* Info.plist */,
+			);
+			path = SmartFund;
+			sourceTree = "<group>";
+		};
+		2085734920620AF6002B230C /* SmartFundTests */ = {
+			isa = PBXGroup;
+			children = (
+				2085734A20620AF6002B230C /* SmartFundTests.swift */,
+				2085734C20620AF6002B230C /* Info.plist */,
+			);
+			path = SmartFundTests;
+			sourceTree = "<group>";
+		};
+		2085735420620AF6002B230C /* SmartFundUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2085735520620AF6002B230C /* SmartFundUITests.swift */,
+				2085735720620AF6002B230C /* Info.plist */,
+			);
+			path = SmartFundUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2085733120620AF6002B230C /* SmartFund */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2085735A20620AF6002B230C /* Build configuration list for PBXNativeTarget "SmartFund" */;
+			buildPhases = (
+				2085732E20620AF6002B230C /* Sources */,
+				2085732F20620AF6002B230C /* Frameworks */,
+				2085733020620AF6002B230C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartFund;
+			productName = SmartFund;
+			productReference = 2085733220620AF6002B230C /* SmartFund.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2085734520620AF6002B230C /* SmartFundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2085735D20620AF6002B230C /* Build configuration list for PBXNativeTarget "SmartFundTests" */;
+			buildPhases = (
+				2085734220620AF6002B230C /* Sources */,
+				2085734320620AF6002B230C /* Frameworks */,
+				2085734420620AF6002B230C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2085734820620AF6002B230C /* PBXTargetDependency */,
+			);
+			name = SmartFundTests;
+			productName = SmartFundTests;
+			productReference = 2085734620620AF6002B230C /* SmartFundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2085735020620AF6002B230C /* SmartFundUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2085736020620AF6002B230C /* Build configuration list for PBXNativeTarget "SmartFundUITests" */;
+			buildPhases = (
+				2085734D20620AF6002B230C /* Sources */,
+				2085734E20620AF6002B230C /* Frameworks */,
+				2085734F20620AF6002B230C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2085735320620AF6002B230C /* PBXTargetDependency */,
+			);
+			name = SmartFundUITests;
+			productName = SmartFundUITests;
+			productReference = 2085735120620AF6002B230C /* SmartFundUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2085732A20620AF5002B230C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = jansen_fan;
+				TargetAttributes = {
+					2085733120620AF6002B230C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					2085734520620AF6002B230C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2085733120620AF6002B230C;
+					};
+					2085735020620AF6002B230C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2085733120620AF6002B230C;
+					};
+				};
+			};
+			buildConfigurationList = 2085732D20620AF5002B230C /* Build configuration list for PBXProject "SmartFund" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2085732920620AF5002B230C;
+			productRefGroup = 2085733320620AF6002B230C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2085733120620AF6002B230C /* SmartFund */,
+				2085734520620AF6002B230C /* SmartFundTests */,
+				2085735020620AF6002B230C /* SmartFundUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2085733020620AF6002B230C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2085734020620AF6002B230C /* LaunchScreen.storyboard in Resources */,
+				2085733D20620AF6002B230C /* Assets.xcassets in Resources */,
+				2085733B20620AF6002B230C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2085734420620AF6002B230C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2085734F20620AF6002B230C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2085732E20620AF6002B230C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2085733820620AF6002B230C /* ViewController.swift in Sources */,
+				2085733620620AF6002B230C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2085734220620AF6002B230C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2085734B20620AF6002B230C /* SmartFundTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2085734D20620AF6002B230C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2085735620620AF6002B230C /* SmartFundUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2085734820620AF6002B230C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2085733120620AF6002B230C /* SmartFund */;
+			targetProxy = 2085734720620AF6002B230C /* PBXContainerItemProxy */;
+		};
+		2085735320620AF6002B230C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2085733120620AF6002B230C /* SmartFund */;
+			targetProxy = 2085735220620AF6002B230C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2085733920620AF6002B230C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2085733A20620AF6002B230C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2085733E20620AF6002B230C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2085733F20620AF6002B230C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2085735820620AF6002B230C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2085735920620AF6002B230C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2085735B20620AF6002B230C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZVU2AHCKNF;
+				INFOPLIST_FILE = SmartFund/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abc.SmartFund;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2085735C20620AF6002B230C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZVU2AHCKNF;
+				INFOPLIST_FILE = SmartFund/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abc.SmartFund;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2085735E20620AF6002B230C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZVU2AHCKNF;
+				INFOPLIST_FILE = SmartFundTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abc.SmartFundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartFund.app/SmartFund";
+			};
+			name = Debug;
+		};
+		2085735F20620AF6002B230C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZVU2AHCKNF;
+				INFOPLIST_FILE = SmartFundTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abc.SmartFundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartFund.app/SmartFund";
+			};
+			name = Release;
+		};
+		2085736120620AF6002B230C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZVU2AHCKNF;
+				INFOPLIST_FILE = SmartFundUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abc.SmartFundUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartFund;
+			};
+			name = Debug;
+		};
+		2085736220620AF6002B230C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZVU2AHCKNF;
+				INFOPLIST_FILE = SmartFundUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abc.SmartFundUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartFund;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2085732D20620AF5002B230C /* Build configuration list for PBXProject "SmartFund" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2085735820620AF6002B230C /* Debug */,
+				2085735920620AF6002B230C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2085735A20620AF6002B230C /* Build configuration list for PBXNativeTarget "SmartFund" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2085735B20620AF6002B230C /* Debug */,
+				2085735C20620AF6002B230C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2085735D20620AF6002B230C /* Build configuration list for PBXNativeTarget "SmartFundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2085735E20620AF6002B230C /* Debug */,
+				2085735F20620AF6002B230C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2085736020620AF6002B230C /* Build configuration list for PBXNativeTarget "SmartFundUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2085736120620AF6002B230C /* Debug */,
+				2085736220620AF6002B230C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2085732A20620AF5002B230C /* Project object */;
+}
