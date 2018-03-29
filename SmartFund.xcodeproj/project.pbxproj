@@ -14,6 +14,11 @@
 		2085734020620AF6002B230C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2085733E20620AF6002B230C /* LaunchScreen.storyboard */; };
 		2085734B20620AF6002B230C /* SmartFundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2085734A20620AF6002B230C /* SmartFundTests.swift */; };
 		2085735620620AF6002B230C /* SmartFundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2085735520620AF6002B230C /* SmartFundUITests.swift */; };
+		20857364206252D1002B230C /* IndexCharts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20857363206252D0002B230C /* IndexCharts.swift */; };
+		20857366206338FC002B230C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 20857365206338FA002B230C /* Default-568h@2x.png */; };
+		2085736A20639519002B230C /* HorizonLineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2085736920639519002B230C /* HorizonLineChart.swift */; };
+		2085736C2063A7E1002B230C /* GlobalParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2085736B2063A7E0002B230C /* GlobalParams.swift */; };
+		A535CD1FBF2AF69C3D6A2DC3 /* Pods_SmartFund.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312AE8A4B560A11F4CA86FB9 /* Pods_SmartFund.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,13 @@
 		2085735120620AF6002B230C /* SmartFundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartFundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2085735520620AF6002B230C /* SmartFundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartFundUITests.swift; sourceTree = "<group>"; };
 		2085735720620AF6002B230C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20857363206252D0002B230C /* IndexCharts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexCharts.swift; sourceTree = "<group>"; };
+		20857365206338FA002B230C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2085736920639519002B230C /* HorizonLineChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizonLineChart.swift; sourceTree = "<group>"; };
+		2085736B2063A7E0002B230C /* GlobalParams.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalParams.swift; sourceTree = "<group>"; };
+		312AE8A4B560A11F4CA86FB9 /* Pods_SmartFund.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartFund.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34E34670C080BDA4257F0D63 /* Pods-SmartFund.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartFund.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmartFund/Pods-SmartFund.debug.xcconfig"; sourceTree = "<group>"; };
+		8AC747D4FBBEB3925E9BEE81 /* Pods-SmartFund.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartFund.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmartFund/Pods-SmartFund.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A535CD1FBF2AF69C3D6A2DC3 /* Pods_SmartFund.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +90,13 @@
 		2085732920620AF5002B230C = {
 			isa = PBXGroup;
 			children = (
+				20857365206338FA002B230C /* Default-568h@2x.png */,
 				2085733420620AF6002B230C /* SmartFund */,
 				2085734920620AF6002B230C /* SmartFundTests */,
 				2085735420620AF6002B230C /* SmartFundUITests */,
 				2085733320620AF6002B230C /* Products */,
+				F330762037DE2614025A1AD1 /* Pods */,
+				E5C0F0A37A4D0861814243A7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +113,11 @@
 		2085733420620AF6002B230C /* SmartFund */ = {
 			isa = PBXGroup;
 			children = (
+				2085736B2063A7E0002B230C /* GlobalParams.swift */,
 				2085733520620AF6002B230C /* AppDelegate.swift */,
 				2085733720620AF6002B230C /* ViewController.swift */,
+				20857363206252D0002B230C /* IndexCharts.swift */,
+				2085736920639519002B230C /* HorizonLineChart.swift */,
 				2085733920620AF6002B230C /* Main.storyboard */,
 				2085733C20620AF6002B230C /* Assets.xcassets */,
 				2085733E20620AF6002B230C /* LaunchScreen.storyboard */,
@@ -125,6 +144,23 @@
 			path = SmartFundUITests;
 			sourceTree = "<group>";
 		};
+		E5C0F0A37A4D0861814243A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				312AE8A4B560A11F4CA86FB9 /* Pods_SmartFund.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F330762037DE2614025A1AD1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34E34670C080BDA4257F0D63 /* Pods-SmartFund.debug.xcconfig */,
+				8AC747D4FBBEB3925E9BEE81 /* Pods-SmartFund.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +168,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2085735A20620AF6002B230C /* Build configuration list for PBXNativeTarget "SmartFund" */;
 			buildPhases = (
+				7D151FC06C81B69DBB49AC55 /* [CP] Check Pods Manifest.lock */,
 				2085732E20620AF6002B230C /* Sources */,
 				2085732F20620AF6002B230C /* Frameworks */,
 				2085733020620AF6002B230C /* Resources */,
+				7FFA2301A9AEE773733062ED /* [CP] Embed Pods Frameworks */,
+				F5971A7C8482EFCB247E44A3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2085734020620AF6002B230C /* LaunchScreen.storyboard in Resources */,
+				20857366206338FC002B230C /* Default-568h@2x.png in Resources */,
 				2085733D20620AF6002B230C /* Assets.xcassets in Resources */,
 				2085733B20620AF6002B230C /* Main.storyboard in Resources */,
 			);
@@ -254,13 +294,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7D151FC06C81B69DBB49AC55 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartFund-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FFA2301A9AEE773733062ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SmartFund/Pods-SmartFund-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyXMLParser/SwiftyXMLParser.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyXMLParser.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartFund/Pods-SmartFund-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5971A7C8482EFCB247E44A3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartFund/Pods-SmartFund-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2085732E20620AF6002B230C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2085736A20639519002B230C /* HorizonLineChart.swift in Sources */,
 				2085733820620AF6002B230C /* ViewController.swift in Sources */,
+				2085736C2063A7E1002B230C /* GlobalParams.swift in Sources */,
 				2085733620620AF6002B230C /* AppDelegate.swift in Sources */,
+				20857364206252D1002B230C /* IndexCharts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +525,7 @@
 		};
 		2085735B20620AF6002B230C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34E34670C080BDA4257F0D63 /* Pods-SmartFund.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +541,7 @@
 		};
 		2085735C20620AF6002B230C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AC747D4FBBEB3925E9BEE81 /* Pods-SmartFund.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

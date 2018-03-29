@@ -1,0 +1,20 @@
+PODS:
+  - Alamofire (4.6.0)
+  - Charts (3.0.5):
+    - Charts/Core (= 3.0.5)
+  - Charts/Core (3.0.5)
+  - SwiftyXMLParser (4.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Charts
+  - SwiftyXMLParser
+
+SPEC CHECKSUMS:
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  Charts: 45cdc985b764c838b35ee47eb1365d15735f6d1a
+  SwiftyXMLParser: 8065da2e715e86aeba677a34fad8c252db5128bb
+
+PODFILE CHECKSUM: fd9fdad6b7f3ba51f939e58b728cd4ada7537bc5
+
+COCOAPODS: 1.4.0

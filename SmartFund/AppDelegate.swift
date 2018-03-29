@@ -12,6 +12,17 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    
+    ///////新增 用于横屏//
+    var blockRotation:Bool=false
+    func application(application: UIApplication, supportedInterfaceOrientationsForWindow window: UIWindow?) -> UIInterfaceOrientationMask {
+        if self.blockRotation{
+            return UIInterfaceOrientationMask.all
+        } else {
+            return UIInterfaceOrientationMask.portrait
+        }
+    }
+    ////结束新增///
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
